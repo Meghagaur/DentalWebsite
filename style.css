@@ -369,7 +369,7 @@ a{
 
 /* contact */
 .contact-box{
-    height: 100vh;
+    height: 120vh;
 
     display: flex;
     flex-direction: column;
