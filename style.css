@@ -25,6 +25,8 @@ body{
 .navbar img{
     margin-left: 10px;
     border-radius: 20px;
+    width: 10rem;
+    height: 50px;
 }
 
 .flex{
@@ -172,17 +174,20 @@ a{
      flex-wrap: wrap;
      justify-content: center;
      align-items: center;
-     gap: 10rem;
+     gap: 5rem;
 }
 
-.Location h1{
+.Location>h1{
     font-size: 3.5rem;
     color: rgba(0, 0, 0, 0.829);
-    margin-top: 60px;
+    margin-top: 20px;
 }
 .Location .para{
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.829);
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .card{
@@ -223,9 +228,12 @@ a{
 
 .card-para{
     font-size: 16px;
-    line-height: 15px;
-    margin: 40px 45px 40px 0;
+    margin: 30px 45px 30px 0;
     font-weight: 400;
+    text-align: left;
+
+    line-height: 15px;
+    letter-spacing: 1px;
 }
 
 .card-btn{
@@ -332,11 +340,17 @@ a{
     transform: scale(1.2);
 }
 
+.person-card h4{
+    margin-bottom: 5px;
+}
+
 .person-card p{
     line-height: 24px;
     letter-spacing: 0.5px;
     margin-bottom: 12px;
     text-align: center;
+
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .name{
