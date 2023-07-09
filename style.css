@@ -180,7 +180,7 @@ a{
 .Location>h1{
     font-size: 3.5rem;
     color: rgba(0, 0, 0, 0.829);
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .Location .para{
     font-size: 1.5rem;
@@ -247,6 +247,11 @@ a{
     font-weight: 800;
     cursor: pointer;
     width: 120px;
+}
+
+.card-body a{
+    padding: 0;
+    margin: 0;
 }
 
 .card:hover .card-body{
